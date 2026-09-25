@@ -1,19 +1,23 @@
-# ShellForge
+# OSSP Practical Session 2
 
-ShellForge is a Unix-like shell developed as part of the Operating Systems and Systems Programming Project-Based Learning course.
+## File Copy Using System Calls
 
-## Features (Week 1)
+### Objective
 
-- Interactive REPL loop
-- Makefile-based build
-- Git repository
-- Linux development environment
+Develop a C program that uses the system calls:
 
-## Build
+- `open()`
+- `read()`
+- `write()`
+- `close()`
 
-make
+to copy the contents of one file to another.
 
-## Run
+The practical also demonstrates the transition between user space and kernel space during system-call execution.
 
-make run
+## Program
 
+The main program is:
+
+```text
+src/prog2.c
